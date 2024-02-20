@@ -27,7 +27,7 @@ html{
     align-items: center;
     background: #1f1e1f;
     position: fixed;
-    padding-left: 30rem;
+    padding-left: 5rem;
 }
 
 .logo{
@@ -40,7 +40,7 @@ html{
 
 .logo h3{
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .logo img{
@@ -48,11 +48,89 @@ html{
     height: 100%;
 }
 
+
+.content .list-menu{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a{
+    padding: 3rem 1rem 1rem 1rem;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover{
+    background-color: #3333;
+    border-bottom: 4px solid #ffc506;
+    color: #ffc506;
+
+}
+
+/* first section*/
+
 .first-section{
+    background-image: linear-gradient(rgba(29, 29, 29, 0.5), rgba(29, 29, 29, 0.5)) ,url(imagens/pizza\ fundo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.first-section .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1{
+    color: #ffc506;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.first-section h2{
+    color: rgb(177, 177, 177);
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.btn button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffc506;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 400ms ease-in;
+}
+
+.btn button:hover{
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color:#ffc506;
+}
+
+.btn {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+
 }
