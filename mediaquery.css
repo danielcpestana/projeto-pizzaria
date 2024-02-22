@@ -1,0 +1,92 @@
+@media (max-width: 1200px) {
+    .main {
+        display: block;
+    }
+    
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12%;
+        padding-left: 0px ;
+    }
+
+    .logo h3{
+        font-size: 1.5rem;
+    }
+
+    .logo img{
+        width: 90%;
+        height: 90%;
+    }
+
+    .content .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 35px;
+        margin-bottom: 20px;
+    }
+
+    .sobre-nos img{
+        width: 350px;
+        
+    }
+
+}
+
+@media (max-width: 992px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 65%;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    .content .list-menu{
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 80%;
+        height: 2%;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+    }
+
+    .menu-toggle {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .itens-cardapio{
+        grid-template-columns: repeat(2,minmax(50px, 350px));
+    }
+
+    .itens-cardapio .info h4{
+        margin-left: 9rem;
+    }
+}

@@ -40,7 +40,7 @@ html{
 
 .logo h3{
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-top: 12px;
     padding-left: 5px;
 }
@@ -98,14 +98,14 @@ html{
 
 .first-section h1{
     color: #ffc506;
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
 .first-section h2{
     color: rgb(177, 177, 177);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 2rem;
@@ -150,7 +150,7 @@ html{
 }
 
 .sobre-nos img{
-    width: 400px;
+    width: 450px;
     margin-top: 10rem;
     margin-left: 10rem;
     border: 2px solid rgb(155, 155, 155);
@@ -166,16 +166,17 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .contentsobre h2 {
-    font-size: 6rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
 }
 
 .contentsobre p {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: 600px;
 }
 
@@ -191,18 +192,18 @@ html{
 }
 
 .cardapio h2{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #e6e6e6;
     text-transform: uppercase;
     padding-top: 30px;
 }
 
 .itens-cardapio {
-    width: 80%;
+    width: 90%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -220,14 +221,14 @@ html{
 }
 
 .itens-cardapio .info h3{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
     text-decoration: underline;
 }
 
 .itens-cardapio .info h4{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     margin-bottom: 0.6rem;
     display: grid;
@@ -310,7 +311,7 @@ html{
 }
 
 .contatos h3{
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin-bottom: 3rem;
     
 }
@@ -319,7 +320,7 @@ html{
     width: 650px;
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .contatos-secao i {
@@ -344,3 +345,4 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
